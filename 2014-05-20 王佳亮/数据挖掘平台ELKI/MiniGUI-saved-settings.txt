@@ -1,0 +1,48 @@
+#Saved ELKI settings. First line is title, remaining lines are parameters.
+
+
+[Saved Settings]
+-verbose
+
+[Saved Settings stitp opticsxi]
+-verbose
+-dbc.in
+E:\java studio\elki\elki_jar\stitp项目移交\allspex_latlng.txt
+-db.index
+tree.spatial.rstarvariants.rstar.RStarTreeFactory
+-spatial.bulkstrategy
+SortTileRecursiveBulkSplit
+-algorithm
+clustering.OPTICSXi
+-opticsxi.xi
+0.02
+-algorithm.distancefunction
+geo.LngLatDistanceFunction
+-optics.minpts
+100
+-resulthandler
+ResultWriter
+-out
+E:\java studio\elki\elki_jar\stitp项目移交\opticsxi
+-out.silentoverwrite
+
+[Saved Settings stitp opticsof]
+-verbose
+-dbc.in
+E:\java studio\elki\elki_jar\stitp项目移交\allspex_latlng.txt
+-db.index
+tree.spatial.rstarvariants.rstar.RStarTreeFactory
+-spatial.bulkstrategy
+SortTileRecursiveBulkSplit
+-algorithm
+outlier.OPTICSOF
+-algorithm.distancefunction
+geo.LngLatDistanceFunction
+-optics.minpts
+100
+-resulthandler
+ResultWriter
+-out
+E:\java studio\elki\elki_jar\stitp项目移交\opticsof
+-out.silentoverwrite
+
